@@ -1,22 +1,50 @@
-<DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pr.br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão no link</title>
+<style>
+    body {
+       background-color: rgb(255, 169, 219);
+       color: white;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       margin: 0%;
+       padding: 0%;
+       border-radius: 10px;
+    }
 
-    <head>
-       <meta charset="UTF-8">
-        <title>Biblioteca CESF</title>
-        <link rel="stylesheet"  href="style.css">
-      </head>
-        
-      <body>
+    .layout { 
+        margin: 50px;
+        text-align: center;
+
+    }
+
+    .link {
+        text-decoration: none;
+        background-color: rgb(139, 23, 248);
+        color: black;
+        min-width: 200px;
+        padding: 10px 30px;
+        border-radius: 10px;
+
+    }
+
+    .link:hover {
+        background-color: rgb(194, 159, 226);
+        color: rgb(170, 151, 151);
+    }
+</style>
+</head>
+
+
+<body>
     
-        <h1 >Biblioteca CESF</h1>
+     <div class="layout"> 
+        <p> Olá mundo web!</p>
+        <a href="https://www.google.com" class="link"> Visite o Google</a>
+     </div>
 
-        <div class="logo"><img src="cesf.png"></div>
-    
-        
-        </body>
-        </html>
-
-        <div class="login"> <button class="meu-botao">LOGIN</button></div>  
-        <div class="ou">OU</div> 
-        <div class="cadastro"><button class="meu-botao">REGISTRO</button></div> </section>
+</body>
+</html>
